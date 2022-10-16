@@ -130,7 +130,7 @@ from google.auth.transport import requests
 app = Flask(__name__)
 CORS(app)
 
-client_id = "863627961660-os8jlqp8h84240m81rsfo0tts0th2ijs.apps.googleusercontent.com"
+client_id = "クライアントID"
 
 @app.route('/auth/google/verifycredential', methods=['POST'])
 def verifyCredential():    # クレデンシャル(=IDトークン)を検証し、プロファイル情報を戻す
